@@ -4,7 +4,8 @@ import matplotlib.pyplot as plt;
 from numpy.linalg import matrix_power;
 
 from init.transitionMatrix import MATRIX;
-from init.rents            import RENTS, rents, colors;
+from init.rents            import RENTS, rents;
+from init.colors           import colors;
 from init.costs            import COSTS;
 
 _positions = [0] * 40 * 3
